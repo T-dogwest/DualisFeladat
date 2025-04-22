@@ -19,16 +19,30 @@
             //string visszafejtett = rejtjelez.Visszafejt(kodolt, kulcs);
             //Console.WriteLine("Visszafejtett üzenet: " + visszafejtett);
 
-            //// Ellenőrzés
-            //if (visszafejtett == uzenet)
-            //{
-            //    Console.WriteLine("✅ A visszafejtés sikeres!");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("❌ A visszafejtés hibás.");
-            //}
-           
+            
+
+            Rejtjelez r = new Rejtjelez();
+
+            string uzenet1 = "curiosity killed the cat";
+            string uzenet2 = "early bird catches the worm";
+            string kulcs = "qwertyuiopasdfghjklzxcvbnmq"; 
+
+            string kodolt1 = r.Rejtjelezes(uzenet1, kulcs);
+            string kodolt2 = r.Rejtjelezes(uzenet2, kulcs);
+
+            //Tamadas tamadas = new Tamadas();
+
+            //Console.WriteLine("== Indított támadás ==");
+            //tamadas.InditottTamadas(kodolt2, kodolt1, "early ");
+            Tamadas tamadas = new Tamadas();
+            List<string> kulcsok = tamadas.InditottTamadas(kodolt1, kodolt2, "early ");
+            foreach (string kulcss in kulcsok)
+            {
+                Console.WriteLine("Talált kulcs: " + kulcss);
+            }
+
+
+
         }
     }
 }

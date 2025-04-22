@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DualisFeladat", "DualisFeladat\DualisFeladat.csproj", "{23FE1249-0561-4710-B723-33006E02E5C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DualisTest", "DualisTest\DualisTest.csproj", "{8B912134-2653-4F38-A74B-E5519646A559}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{23FE1249-0561-4710-B723-33006E02E5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23FE1249-0561-4710-B723-33006E02E5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23FE1249-0561-4710-B723-33006E02E5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B912134-2653-4F38-A74B-E5519646A559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B912134-2653-4F38-A74B-E5519646A559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B912134-2653-4F38-A74B-E5519646A559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B912134-2653-4F38-A74B-E5519646A559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
