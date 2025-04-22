@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DualisFeladat
 {
-    class Rejtjelez
+    public class Rejtjelez
     {
         //: a = 0, b = 1, ... z = 25, ' ' (szóköz) = 26
         public int KarakterKod(char a)
